@@ -85,8 +85,8 @@ function cardsScrollGallery() {
     // Reset initial state
     gsap.set(gallery, {
       rotation: config.initialRotation,
-      scale: config.scale,
-      y: config.yPosition,
+      scale: 1,
+      y: 940,
     });
 
     // Create new animation
